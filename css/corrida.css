@@ -1,0 +1,105 @@
+body{
+    margin: 0 auto;
+    font-size: xx-large;
+    background-image: url("../imagens/CorridaVoadora/quadribol.png");
+    background-size: 100%;
+}
+/* -- Cabeçalho -- */
+header{
+    background-color: black;
+    padding: 20px;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+.iconePerf{
+    display: flex;
+    align-items: center;
+}
+
+/* Corrida Voadora */
+main{
+    margin-top: 30px;
+}
+
+main img{
+    width: 200px;
+    height: 150px;
+
+}
+button{
+    margin-left: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.btnModal button{
+    padding: 10px;
+    color: white;
+    width: 180px;
+    border-radius: 15px;
+}
+.modal-content{
+    font-size: 25px;
+}
+#jogo{
+    width: 90%;
+    height: 620px;
+    position: relative;
+}
+#p1{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: none;
+}
+#p2{
+    margin-top: 210px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: none;
+}
+#p3{
+    margin-top: 420px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: none;
+}
+
+/* Rodapé do site */
+/* Rodapé do site */
+footer{
+    background-color: black;
+    padding: 40px;
+    margin-top: 50px;
+}
+.itemRodape{
+    text-decoration: none;
+    color: white;
+    text-align :center;
+    margin: 10px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

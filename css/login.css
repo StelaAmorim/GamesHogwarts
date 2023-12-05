@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+    font-size: xx-large;
+}
+/* -- Cabeçalho -- */
+header{
+    background-color: black;
+    padding: 20px;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+.iconePerf{
+    display: flex;
+    align-items: center;
+}
+
+/* -- Caixa Login -- */
+main{
+    display: flex;
+    justify-content: center
+}
+.login{
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 25px;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    width: 500px;
+    margin-top: 200px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: white;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    font-size: large;
+    margin-bottom: 40px;
+}
+.entrar{
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    border: white;
+    background-color: rgb(133, 0, 0);
+    color: white;
+    font-size: x-large;
+}
+.entrar:hover{
+    background-color: rgb(32, 32, 32);
+    border: rgb(32, 32, 32);
+    transition: 0,5s;
+}
+
+/* Rodapé do site */
+footer{
+    background-color: rgb(32, 32, 32);
+    padding: 40px;
+    margin-top: 50px;
+}
+.itemRodape{
+    text-decoration: none;
+    color: white;
+    text-align :center;
+    margin: 10px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

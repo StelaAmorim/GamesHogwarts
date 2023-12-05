@@ -1,0 +1,113 @@
+body{
+    font-size: large;
+    background-color: #e5d1ba;
+}
+/* Cabeçalho */
+header{
+    background-color: rgb(87, 35, 0);
+    padding: 20px;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+.iconePerf{
+    display: flex;
+    align-items: center;
+}
+/* Menu */
+nav{
+    margin: 10px;
+}
+hr{
+    border: 1px solid rgb(87, 35, 0);
+}
+.menu{
+    font-size: x-large;
+}
+.links{
+    text-decoration: none;
+    color: rgb(87, 35, 0);
+    text-align :center;
+}
+
+/* Home */
+.jogo img{
+    text-decoration: none;
+    border: 3px solid rgb(218, 131, 0);
+    border-radius: 20px;
+    font-size: 25px;   
+    width: 350px;
+    margin-bottom: 20px;
+}
+.jogo img:hover{
+    color: white;
+    border: 3px solid;
+    transform: translateX(10px)scale(1.1);
+    transition: 1s;
+}
+.jogos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.banner{
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Rodapé do site */
+footer{
+    background-color: rgb(87, 35, 0);
+    padding: 40px;
+    margin-top: 50px;
+}
+.itemRodape{
+    text-decoration: none;
+    color: white;
+    text-align :center;
+    margin: 10px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1000px){
+    .jogo img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .menu{
+        font-size: medium;
+    }
+    .itemRodape{
+        font-size: medium
+    }
+    .logo1{
+        height: 75px;
+    }
+    .logo{
+        height: 75px;
+    }
+    .iconePerf{
+        width: 30px;
+    }
+}

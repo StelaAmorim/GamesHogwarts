@@ -1,0 +1,124 @@
+body{
+    margin: 0 auto;
+    font-size: xx-large;
+    background-color: rgb(202, 133, 69);
+}
+/* -- Cabeçalho -- */
+header{
+    background-color: rgb(160, 28, 28);
+    padding: 20px;
+}
+.logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+.iconePerf{
+    display: flex;
+    align-items: center;
+}
+
+/* Jogo da velha */
+h1{
+    color: #a01c1c;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#jogo{
+    width: 606px;
+    height: 603px;
+    border: solid 3px #a01c1c;
+    background-color: white;
+    background-color: rgb(202, 133, 69);
+
+}
+#resultado{
+    margin-left: 30px;
+    float: left;
+}
+#resposta{
+    font-style: italic;
+    color: #a01c1c;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 3px #a01c1c;
+}
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 3px #a01c1c;
+    float: left;
+}
+.resposta{
+    color: white;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #cc4f4f;
+    background-image: linear-gradient(to bottom, #a01c1c, #cc4f4f);
+    border-radius: 20px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 50;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 1px black;
+    text-shadow: 1px 1px 20px black;
+    border: solid #cc4f4f 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background: #a01c1c;
+    background-image: linear-gradient(to bottom, #cc4f4f, #a01c1c);
+    text-decoration: none;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.jogoVelha{
+    background-image: url("../imagens/Home/jogoVelha.png");
+}
+
+/* Rodapé do site */
+footer{
+    background-color: rgb(160, 28, 28);
+    padding: 40px;
+    margin-top: 50px;
+}
+.itemRodape{
+    text-decoration: none;
+    color: white;
+    text-align :center;
+    margin: 10px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
