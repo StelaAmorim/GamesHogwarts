@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu Personagem - Games Hogwarts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/personagem.css">
+</head>
+<body>
+    <header class="sumir">
+        <div class="container">
+            <div class="row cabecalho">
+                <div class="col-1 cabecalho">
+                    <!-- Logo Conta -->
+                    <!-- Home -->
+                    <a href="index.html"><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
+                        </svg></a>
+                </div>
+                <!-- Logo Site -->
+                <div class="col-10 logo cabecalho"><img class="logo" src="imagens/Home/logo.png" alt=""></div>
+            </div>
+        </div>
+    </header>
+
+    <h1>Escolha seu personagem</h1>
+    <main>
+        <nav>
+            <!-- Harry Potter -->
+            <div>
+                <a href="#" onclick="imagens(0)"><img src="imagens/Personagens/harryPotter.png" alt=""></a>
+                <a href="#" onclick="imagens(1)"><img src="imagens/Personagens/hermione.png" alt=""></a>
+            </div>
+            <!-- Hermione Granger -->
+            <div>
+                <a href="#" onclick="imagens(2)"><img src="imagens/Personagens/ron.png" alt=""></a>
+                <a href="#" onclick="imagens(3)"><img src="imagens/Personagens/luna.png" alt=""></a>
+            </div>
+            <!-- Ron Weasley -->
+            <div>
+                <a href="#" onclick="imagens(4)"><img src="imagens/Personagens/dracoMalfoy.png" alt=""></a>
+                <a href="#" onclick="imagens(5)"><img src="imagens/Personagens/choChang.png" alt=""></a>
+            </div>
+            <!-- Harry Potter -->
+            <div>
+                <a href="#" onclick="imagens(6)"><img src="imagens/Personagens/cedrico.png" alt=""></a>
+                <a href="#" onclick="imagens(7)"><img src="imagens/Personagens/ninfadoraTonks.png" alt=""></a>
+            </div>
+        </nav>
+
+        <div id="conteudo">
+            <h3>Aperte em uma imagem para aparecer<br>as informações do personagem</h3>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <!-- Links -->
+                    <div>
+                        <a class="itemRodape" href="index.html">Home</a>
+                        <a class="itemRodape" href="jogos.html">Jogos</a>
+                        <a class="itemRodape" href="personagens.html">Personagens</a>
+                        <a class="itemRodape" href="contato.html">Contato</a>
+                    </div>
+                </div>
+                <!-- Logo Site -->
+                <div class="col-6 logo1">
+                    <img class="logo1" src="imagens/Home/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+        <script src="script/personagens.js"></script>
+</body>
+</html>
